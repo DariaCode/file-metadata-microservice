@@ -1,0 +1,65 @@
+/****** Main Styling ******/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #FFE2B9;
+  text-align: center;
+}
+
+.container {
+  padding: 0;
+  margin: 40px 60px;
+  background-color: #fff;
+  padding: 10px 30px 30px 30px;
+  box-shadow: 10px 10px 34px 0px rgba(0, 0, 0, 0.75);
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+ol {
+  list-style-position: inside;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+input#button {
+  width: 230px;
+}
+.view {
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px solid #aaa;
+  padding: 20px;
+  width: 60%;
+  min-width: 250px;
+}
+
+footer {
+  padding: 1em;
+}
+
+.contact-links a {
+  padding: 1em;
+  font-size: 1.5em;
+  color: black;
+}
+
+.contact-links a:hover {
+  color: #FFC46A;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
